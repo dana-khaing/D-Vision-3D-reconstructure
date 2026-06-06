@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+.env
+*.env
+
+# uv / pip
+.uv/
+pip-wheel-metadata/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+alembic/versions/*.pyc
+
+# ML / data (never commit large model files or party data)
+*.ply
+*.splat
+*.ksplat
+*.pt
+*.pth
+*.ckpt
+*.bin
+party3d-data/
+workspaces/
+outputs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff / mypy
+.ruff_cache/
+.mypy_cache/
